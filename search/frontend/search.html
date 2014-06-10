@@ -1,0 +1,188 @@
+<!DOCTYPE HTML>
+<?php
+    if (isset($_POST["test"])){
+        require("ajax-json.php");
+    }
+?>
+
+<html>
+	<head>
+		<title>CODE-SEARCH</title>
+<script type="text/javascript" src="jquery/jquery-1.7.js"></script>
+        
+		<link rel="stylesheet" type="text/css" href="css/ui-lightness/jquery-ui-1.8.custom.css">
+		
+		<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600|Arvo:700" rel="stylesheet" type="text/css" />
+		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css">
+		
+		<!-- Bootstrap -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+
+		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+		  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+
+		<script src="js/jquery.dropotron.js"></script>
+		<script src="js/config.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/skel-panels.min.js"></script>
+		<link href="css/search_client.css" type="text/css" rel="stylesheet" />
+	<link href="css/tweet.css" type="text/css" rel="stylesheet" />
+	
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/search_client.js"></script>
+		<noscript>
+			<link rel="stylesheet" href="css/skel-noscript.css" />
+			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="css/style-desktop.css" />
+		</noscript>
+		<script>
+		$(document).ready(function () {
+		$('#Package').show();
+		$('#Class').show();
+		$('#interface').hide();
+		$('#constructor').hide();
+		$('#Method').hide();
+    // this function is triggered as soon as something changes in the form
+    $("select[name='find']").change(function () {
+        var a= $(':selected', this).text();
+		//alert(a);
+        if(a=="Package")
+		{
+		$('#Package').show();
+		$('#Class').hide();
+		$('#Method').hide();
+		$('#interface').hide();
+		$('#constructor').hide();
+		
+		}
+		if(a=="Method")
+		{
+		$('#Package').show();
+		$('#Class').hide();
+		$('#Method').show();
+		$('#interface').hide();
+		$('#constructor').hide();
+		
+		}
+		if(a=="Class")
+		{
+		$('#Package').show();
+		$('#Class').show();
+		$('#interface').hide();
+		$('#constructor').hide();
+		$('#Method').hide();
+		}
+		if(a=="Interface")
+		{
+		$('#Package').show();
+		$('#Class').hide();
+		$('#interface').show();
+		$('#constructor').hide();
+		$('#Method').hide();
+		}
+		if(a=="Constructor")
+		{
+		$('#Package').show();
+		$('#Class').hide();
+		$('#interface').hide();
+		$('#constructor').show();
+		$('#Method').hide();
+		}
+		
+		});
+	});
+		</script>
+		<style>
+		.ui-widget-header {
+border: 1px solid #aaaaaa;
+background: green !important;
+color: #0E0909;
+font-weight: bold;
+}
+		</style>
+	
+	</head>
+	<body class="right-sidebar">
+
+		
+			
+		<!-- Main Wrapper -->
+			<div id="main-wrapper" >
+
+				<!-- Main -->
+					<div id="main" class="container">
+						<div class="row" style="margin-left:400px;">
+						
+			<header>
+												<h2>Search Repositories</h2>
+											</header>
+											<div>
+											
+											<p>Find:<select name="find" id="find">
+											<option value="JClass">Class</option>
+											<option value="JMethod">Method</option>
+											<option value="JPackage">Package</option>
+											<option value="JConstructor">Constructor</option>
+											<option value="JInterface">Interface</option>
+											
+											</select>
+											
+											
+                        <div id="Package">
+						Keyword:<input name="keyword" id="to">
+
+						</div>											
+							<div id="Class">
+						Extends Class:<input name="ec" id="ec">
+						<br/>Implements Class:<input name="ic" id="ic">
+						<br/> Contains Method:<input name="cm" id="cm">
+												&nbsp Visibility:<select name="hv" id="hv">
+												<option value="Public">Public</option>
+												<option value="Private">Private</option>
+												<option value="Protected">Protected</option>
+												</select>
+						</div>			
+							<div id="Method">
+						Visibility:<select name="hv1" id="hv1">
+												<option value="Public">Public</option>
+												<option value="Private">Private</option>
+												<option value="Protected">Protected</option>
+												</select>
+			            <br/> Return Type:<input name="rt" id="rt">
+						<br/> Throws:<input name="thr" id="thr">
+
+						</div>	
+<div id="interface">
+						
+			             Contains Method:<input name="cm1" id="cm1">
+						<br/> Contains Attribute:<input name="ca1" id="ca1">
+
+						</div>	
+<div id="constructor">
+						
+			             Contains Parameter:<input name="cp1" id="cp1">
+						<br/> Visibility:<input name="hv2" id="hv2">
+
+						</div>								
+															
+											<br/>
+											
+											<input type="submit" name="search" id="search" value="Search">
+											</p>
+									<br/>
+Results:									
+<br/>
+<br/>
+											</div>
+											
+											<div id="search_results"></div>
+											
+		
+			</div>
+	</body>
+</html>

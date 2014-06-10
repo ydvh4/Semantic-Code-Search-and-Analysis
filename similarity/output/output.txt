@@ -1,0 +1,70 @@
+Package:http://www.rdfcoder.org/2007/1.0#jpackage:org.apache.hadoop.util: 0.9575772660311613
+[org.apache.hadoop.util <contains_class> SigKillThread] vs. [org.apache.hadoop.util <contains_class> SigKillThread] : 1.0&#13;
+[org.apache.hadoop.util <contains_class> HostsFileReader] vs. [org.apache.hadoop.util <contains_class> HostsFileReader] : 1.0&#13;
+[org.apache.hadoop.util <contains_class> HeapSort] vs. [org.apache.hadoop.util <contains_class> HeapSort] : 1.0&#13;
+[org.apache.hadoop.util <subClassOf> JPackage] vs. [org.apache.hadoop.util <subClassOf> JPackage] : 1.0&#13;
+[org.apache.hadoop.util <contains_class> CyclicIteration] vs. [org.apache.hadoop.util <contains_class> CyclicIteration] : 0.9545454545454546&#13;
+[org.apache.hadoop.util <contains_interface> IndexedSorter] vs. [org.apache.hadoop.util <contains_interface> IndexedSorter] : 1.0&#13;
+[org.apache.hadoop.util <contains_class> StringUtils] vs. [org.apache.hadoop.util <contains_class> StringUtils] : 1.0&#13;
+[org.apache.hadoop.util <contains_class> DiskChecker] vs. [org.apache.hadoop.util <contains_class> DiskChecker] : 0.9090909090909091&#13;
+[org.apache.hadoop.util <contains_class> DiskOutOfSpaceException] vs. [org.apache.hadoop.util <contains_class> DiskOutOfSpaceException] : 1.0&#13;
+[org.apache.hadoop.util <contains_class> Progress] vs. [org.apache.hadoop.util <contains_class> Progress] : 1.0&#13;
+[org.apache.hadoop.util <contains_interface> IndexedSortable] vs. [org.apache.hadoop.util <contains_interface> IndexedSortable] : 1.0&#13;
+[org.apache.hadoop.util <contains_class> ChecksumNull] vs. [org.apache.hadoop.util <contains_class> ChecksumNull] : 1.0&#13;
+[org.apache.hadoop.util <contains_class> ProcfsBasedProcessTree] vs. [org.apache.hadoop.util <contains_class> ProcfsBasedProcessTree] : 0.9545454545454546&#13;
+[org.apache.hadoop.util <contains_class> PrintJarMainClass] vs. [org.apache.hadoop.util <contains_class> PrintJarMainClass] : 1.0&#13;
+[org.apache.hadoop.util <contains_class> ProcessInfo] vs. [org.apache.hadoop.util <contains_class> ProcessInfo] : 1.0&#13;
+[org.apache.hadoop.util <contains_class> GenericsUtil] vs. [org.apache.hadoop.util <contains_class> GenericsUtil] : 1.0&#13;
+[org.apache.hadoop.util <contains_class> UTF8ByteArrayUtils] vs. [org.apache.hadoop.util <contains_class> UTF8ByteArrayUtils] : 1.0&#13;
+[org.apache.hadoop.util <contains_class> ProgramDescription] vs. [org.apache.hadoop.util <contains_class> ProgramDescription] : 1.0&#13;
+[org.apache.hadoop.util <contains_class> NativeCodeLoader] vs. [org.apache.hadoop.util <contains_class> NativeCodeLoader] : 1.0&#13;
+[org.apache.hadoop.util <contains_class> CyclicIterator] vs. [org.apache.hadoop.util <contains_class> CyclicIterator] : 1.0&#13;
+[org.apache.hadoop.util <contains_class> QuickSort] vs. [org.apache.hadoop.util <contains_class> QuickSort] : 1.0&#13;
+[org.apache.hadoop.util <contains_class> XMLUtils] vs. [org.apache.hadoop.util <contains_class> XMLUtils] : 1.0&#13;
+[org.apache.hadoop.util <contains_class> ProgramDriver] vs. [org.apache.hadoop.util <contains_class> ProgramDriver] : 0.9375&#13;
+[org.apache.hadoop.util <contains_class> MergeSort] vs. [org.apache.hadoop.util <contains_class> MergeSort] : 1.0&#13;
+[org.apache.hadoop.util <contains_class> ProcessTree] vs. [org.apache.hadoop.util <contains_class> ProcessTree] : 0.9545454545454546&#13;
+[org.apache.hadoop.util <contains_class> PlatformName] vs. [org.apache.hadoop.util <contains_class> PlatformName] : 1.0&#13;
+[org.apache.hadoop.util <contains_class> LineReader] vs. [org.apache.hadoop.util <contains_class> LineReader] : 0.8947368421052632&#13;
+[org.apache.hadoop.util <contains_class> GenericOptionsParser] vs. [org.apache.hadoop.util <contains_class> GenericOptionsParser] : 0.8695652173913043&#13;
+[org.apache.hadoop.util <contains_class> ResourceCalculatorPlugin] vs. [org.apache.hadoop.util <contains_class> ResourceCalculatorPlugin] : 1.0&#13;
+[org.apache.hadoop.util <contains_class> RunJar] vs. [org.apache.hadoop.util <contains_class> RunJar] : 1.0&#13;
+[org.apache.hadoop.util <contains_enumeration> Signal] vs. [org.apache.hadoop.util <contains_enumeration> Signal] : 1.0&#13;
+[org.apache.hadoop.util <contains_interface> Tool] vs. [org.apache.hadoop.util <contains_interface> Tool] : 1.0&#13;
+[org.apache.hadoop.util <contains_class> PriorityQueue] vs. [org.apache.hadoop.util <contains_class> PriorityQueue] : 1.0&#13;
+[org.apache.hadoop.util <contains_class> ChecksumUtil] vs. [org.apache.hadoop.util <contains_class> ChecksumUtil] : 1.0&#13;
+[org.apache.hadoop.util <contains_class> DiskErrorException] vs. [org.apache.hadoop.util <contains_class> DiskErrorException] : 1.0&#13;
+[org.apache.hadoop.util <contains_package> org.apache.hadoop.util.hash] vs. [org.apache.hadoop.util <contains_package> org.apache.hadoop.util.hash] : 1.0&#13;
+[org.apache.hadoop.util <contains_class> ProcResourceValues] vs. [org.apache.hadoop.util <contains_class> ProcResourceValues] : 1.0&#13;
+[org.apache.hadoop.util <contains_class> ToolRunner] vs. [org.apache.hadoop.util <contains_class> ToolRunner] : 1.0&#13;
+[org.apache.hadoop.util <contains_enumeration> TraditionalBinaryPrefix] vs. [org.apache.hadoop.util <contains_enumeration> TraditionalBinaryPrefix] : 1.0&#13;
+[org.apache.hadoop.util <contains_interface> Progressable] vs. [org.apache.hadoop.util <contains_interface> Progressable] : 1.0&#13;
+[org.apache.hadoop.util <contains_class> ServletUtil] vs. [org.apache.hadoop.util <contains_class> ServletUtil] : 1.0&#13;
+[org.apache.hadoop.util <contains_class> Daemon] vs. [org.apache.hadoop.util <contains_class> Daemon] : 0.8181818181818182&#13;
+[org.apache.hadoop.util <contains_class> DataChecksum] vs. [org.apache.hadoop.util <contains_class> DataChecksum] : 0.96875&#13;
+[org.apache.hadoop.util <contains_class> PureJavaCrc32] vs. [org.apache.hadoop.util <contains_class> PureJavaCrc32] : 0.72&#13;
+[org.apache.hadoop.util <contains_class> VersionInfo] vs. [org.apache.hadoop.util <contains_class> VersionInfo] : 1.0&#13;
+[org.apache.hadoop.util <contains_package> org.apache.hadoop.util.bloom] vs. [org.apache.hadoop.util <contains_package> org.apache.hadoop.util.bloom] : 1.0&#13;
+[org.apache.hadoop.util <contains_class> MemoryCalculatorPlugin] vs. [org.apache.hadoop.util <contains_class> MemoryCalculatorPlugin] : 1.0&#13;
+sum (sum1) : 45.98146115040566&#13;sum on org.apache.hadoop.util (sum2) : 45.98146115040566&#13;org.apache.hadoop.util statement size (size1) : 47&#13;org.apache.hadoop.util statement size (size2) : 47&#13;alpha : 1.0&#13;beta : 1.0&#13;sum1/(sum1+alpha*(size1-sum1)+beta*(size2-sum2)) = 0.9575772660311613
+-------------------------------------------
+Package:http://www.rdfcoder.org/2007/1.0#jpackage:org.apache.hadoop.security: 0.947935233587466
+[org.apache.hadoop.security <contains_interface> RefreshUserMappingsProtocol] vs. [org.apache.hadoop.security <contains_interface> RefreshUserMappingsProtocol] : 1.0&#13;
+[org.apache.hadoop.security <contains_class> SecurityUtil] vs. [org.apache.hadoop.security <contains_class> SecurityUtil] : 1.0&#13;
+[org.apache.hadoop.security <contains_class> SaslInputStream] vs. [org.apache.hadoop.security <contains_class> SaslInputStream] : 0.96&#13;
+[org.apache.hadoop.security <contains_class> Groups] vs. [org.apache.hadoop.security <contains_class> Groups] : 0.9&#13;
+[org.apache.hadoop.security <contains_class> CachedGroups] vs. [org.apache.hadoop.security <contains_class> CachedGroups] : 1.0&#13;
+[org.apache.hadoop.security <contains_package> org.apache.hadoop.security.authentication] vs. [org.apache.hadoop.security <contains_package> org.apache.hadoop.security.authentication] : 1.0&#13;
+[org.apache.hadoop.security <contains_class> AccessControlException] vs. [org.apache.hadoop.security <contains_class> AccessControlException] : 0.8&#13;
+[org.apache.hadoop.security <subClassOf> JPackage] vs. [org.apache.hadoop.security <subClassOf> JPackage] : 1.0&#13;
+[org.apache.hadoop.security <contains_package> org.apache.hadoop.security.authorize] vs. [org.apache.hadoop.security <contains_package> org.apache.hadoop.security.authorize] : 1.0&#13;
+[org.apache.hadoop.security <contains_package> org.apache.hadoop.security.token] vs. [org.apache.hadoop.security <contains_package> org.apache.hadoop.security.token] : 1.0&#13;
+[org.apache.hadoop.security <contains_class> StandardHostResolver] vs. [org.apache.hadoop.security <contains_class> StandardHostResolver] : 1.0&#13;
+[org.apache.hadoop.security <contains_class> SaslOutputStream] vs. [org.apache.hadoop.security <contains_class> SaslOutputStream] : 0.9411764705882353&#13;
+[org.apache.hadoop.security <contains_class> NetgroupCache] vs. [org.apache.hadoop.security <contains_class> NetgroupCache] : 1.0&#13;
+[org.apache.hadoop.security <contains_interface> GroupMappingServiceProvider] vs. [org.apache.hadoop.security <contains_interface> GroupMappingServiceProvider] : 1.0&#13;
+[org.apache.hadoop.security <contains_class> QualifiedHostResolver] vs. [org.apache.hadoop.security <contains_class> QualifiedHostResolver] : 1.0&#13;
+[org.apache.hadoop.security <contains_class> SaslClientCallbackHandler] vs. [org.apache.hadoop.security <contains_class> SaslClientCallbackHandler] : 1.0&#13;
+[org.apache.hadoop.security <contains_class> SaslRpcClient] vs. [org.apache.hadoop.security <contains_class> SaslRpcClient] : 0.9444444444444444&#13;
+sum (sum1) : 16.54562091503268&#13;sum on org.apache.hadoop.security (sum2) : 16.54562091503268&#13;org.apache.hadoop.security statement size (size1) : 17&#13;org.apache.hadoop.security statement size (size2) : 17&#13;alpha : 1.0&#13;beta : 1.0&#13;sum1/(sum1+alpha*(size1-sum1)+beta*(size2-sum2)) = 0.947935233587466
+-------------------------------------------

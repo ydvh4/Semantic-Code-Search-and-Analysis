@@ -1,0 +1,49 @@
+Package:http://www.rdfcoder.org/2007/1.0#jpackage:org.apache.hadoop.record.compiler.generated: 0.8309598728681186
+[org.apache.hadoop.record.compiler.generated <subClassOf> JPackage] vs. [org.apache.hadoop.record.compiler.generated <subClassOf> JPackage] : 1.0&#13;
+[org.apache.hadoop.record.compiler.generated <contains_class> ParseException] vs. [org.apache.hadoop.record.compiler.generated <contains_class> ParseException] : 0.8823529411764706&#13;
+[org.apache.hadoop.record.compiler.generated <contains_class> Rcc] vs. [org.apache.hadoop.record.compiler.generated <contains_class> Rcc] : 0.8305084745762712&#13;
+[org.apache.hadoop.record.compiler.generated <contains_interface> RccConstants] vs. [org.apache.hadoop.record.compiler.generated <contains_interface> RccConstants] : 1.0&#13;
+[org.apache.hadoop.record.compiler.generated <contains_class> RccTokenManager] vs. [org.apache.hadoop.record.compiler.generated <contains_class> RccTokenManager] : 0.8382352941176471&#13;
+[org.apache.hadoop.record.compiler.generated <contains_class> SimpleCharStream] vs. [org.apache.hadoop.record.compiler.generated <contains_class> SimpleCharStream] : 0.8214285714285714&#13;
+[org.apache.hadoop.record.compiler.generated <contains_class> Token] vs. [org.apache.hadoop.record.compiler.generated <contains_class> Token] : 1.0&#13;
+[org.apache.hadoop.record.compiler.generated <contains_class> TokenMgrError] vs. [org.apache.hadoop.record.compiler.generated <contains_class> TokenMgrError] : 0.8888888888888888&#13;
+sum (sum1) : 7.261414170187848&#13;sum on org.apache.hadoop.record.compiler.generated (sum2) : 7.261414170187848&#13;org.apache.hadoop.record.compiler.generated statement size (size1) : 8&#13;org.apache.hadoop.record.compiler.generated statement size (size2) : 8&#13;alpha : 1.0&#13;beta : 1.0&#13;sum1/(sum1+alpha*(size1-sum1)+beta*(size2-sum2)) = 0.8309598728681186
+-------------------------------------------
+Package:http://www.rdfcoder.org/2007/1.0#jpackage:org.apache.hadoop.conf: 0.43816960232431446
+[org.apache.hadoop.conf <subClassOf> JPackage] vs. [org.apache.hadoop.conf <subClassOf> JPackage] : 1.0&#13;
+[org.apache.hadoop.conf <contains_interface> Configurable] vs. [org.apache.hadoop.conf <contains_interface> Configurable] : 1.0&#13;
+[org.apache.hadoop.conf <contains_class> Configuration] vs. [org.apache.hadoop.conf <contains_class> Configuration] : 0.4625&#13;
+[org.apache.hadoop.conf <contains_class> Configured] vs. [org.apache.hadoop.conf <contains_class> Configured] : 0.8888888888888888&#13;
+sum (sum1) : 3.3513888888888888&#13;sum on org.apache.hadoop.conf (sum2) : 3.3513888888888888&#13;org.apache.hadoop.conf statement size (size1) : 4&#13;org.apache.hadoop.conf statement size (size2) : 7&#13;alpha : 1.0&#13;beta : 1.0&#13;sum1/(sum1+alpha*(size1-sum1)+beta*(size2-sum2)) = 0.43816960232431446
+-------------------------------------------
+Package:http://www.rdfcoder.org/2007/1.0#jpackage:org.apache.hadoop.util: 0.18593882845166523
+[org.apache.hadoop.util <contains_class> CopyFilesMapper] vs. [org.apache.hadoop.util <contains_class> DiskErrorException] : 0.25&#13;
+[org.apache.hadoop.util <contains_class> CopyMapperFactory] vs. [org.apache.hadoop.util <contains_class> ] : 0.42857142857142855&#13;
+[org.apache.hadoop.util <contains_class> DiskChecker] vs. [org.apache.hadoop.util <contains_class> DiskChecker] : 0.6666666666666666&#13;
+[org.apache.hadoop.util <subClassOf> JPackage] vs. [org.apache.hadoop.util <subClassOf> JPackage] : 1.0&#13;
+[org.apache.hadoop.util <contains_class> ToolBase] vs. [org.apache.hadoop.util <contains_class> DiskErrorException] : 0.17647058823529413&#13;
+[org.apache.hadoop.util <contains_class> ] vs. [org.apache.hadoop.util <contains_class> ] : 0.23076923076923078&#13;
+[org.apache.hadoop.util <contains_class> ReflectionUtils] vs. [org.apache.hadoop.util <contains_class> ] : 0.4&#13;
+[org.apache.hadoop.util <contains_class> CopyFiles] vs. [org.apache.hadoop.util <contains_class> DiskErrorException] : 0.1111111111111111&#13;
+[org.apache.hadoop.util <contains_class> Progress] vs. [org.apache.hadoop.util <contains_class> Progress] : 1.0&#13;
+[org.apache.hadoop.util <contains_class> RunJar] vs. [org.apache.hadoop.util <contains_class> RunJar] : 0.7777777777777778&#13;
+[org.apache.hadoop.util <contains_class> ] vs. [org.apache.hadoop.util <contains_class> ] : 1.0&#13;
+[org.apache.hadoop.util <contains_interface> Progressable] vs. [org.apache.hadoop.util <contains_interface> Progressable] : 1.0&#13;
+[org.apache.hadoop.util <contains_class> DFSCopyFilesMapper] vs. [org.apache.hadoop.util <contains_class> DiskErrorException] : 0.11538461538461539&#13;
+[org.apache.hadoop.util <contains_class> Daemon] vs. [org.apache.hadoop.util <contains_class> Daemon] : 0.8181818181818182&#13;
+[org.apache.hadoop.util <contains_class> DiskErrorException] vs. [org.apache.hadoop.util <contains_class> DiskErrorException] : 1.0&#13;
+[org.apache.hadoop.util <contains_class> ProgramDriver] vs. [org.apache.hadoop.util <contains_class> ProgramDriver] : 0.8181818181818182&#13;
+[org.apache.hadoop.util <contains_class> LogFormatter] vs. [org.apache.hadoop.util <contains_class> DiskErrorException] : 0.13043478260869565&#13;
+[org.apache.hadoop.util <contains_class> PrintJarMainClass] vs. [org.apache.hadoop.util <contains_class> PrintJarMainClass] : 1.0&#13;
+[org.apache.hadoop.util <contains_interface> Tool] vs. [org.apache.hadoop.util <contains_interface> Tool] : 1.0&#13;
+[org.apache.hadoop.util <contains_class> StringUtils] vs. [org.apache.hadoop.util <contains_class> ] : 0.25&#13;
+[org.apache.hadoop.util <contains_class> CopyFilesReducer] vs. [org.apache.hadoop.util <contains_class> DiskErrorException] : 0.3333333333333333&#13;
+[org.apache.hadoop.util <contains_class> ProgramDescription] vs. [org.apache.hadoop.util <contains_class> ProgramDescription] : 1.0&#13;
+[org.apache.hadoop.util <contains_class> HTTPCopyFilesMapper] vs. [org.apache.hadoop.util <contains_class> DiskErrorException] : 0.17647058823529413&#13;
+sum (sum1) : 13.683353759057084&#13;sum on org.apache.hadoop.util (sum2) : 11.409379509379509&#13;org.apache.hadoop.util statement size (size1) : 23&#13;org.apache.hadoop.util statement size (size2) : 62&#13;alpha : 1.0&#13;beta : 1.0&#13;sum1/(sum1+alpha*(size1-sum1)+beta*(size2-sum2)) = 0.18593882845166523
+-------------------------------------------
+Package:http://www.rdfcoder.org/2007/1.0#jpackage:org.apache: 0.5333333333333333
+[org.apache <contains_package> org.apache.hadoop] vs. [org.apache <contains_package> org.apache.hadoop] : 0.391304347826087&#13;
+[org.apache <subClassOf> JPackage] vs. [org.apache <subClassOf> JPackage] : 1.0&#13;
+sum (sum1) : 1.391304347826087&#13;sum on org.apache (sum2) : 1.391304347826087&#13;org.apache statement size (size1) : 2&#13;org.apache statement size (size2) : 2&#13;alpha : 1.0&#13;beta : 1.0&#13;sum1/(sum1+alpha*(size1-sum1)+beta*(size2-sum2)) = 0.5333333333333333
+-------------------------------------------

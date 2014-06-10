@@ -1,0 +1,246 @@
+Package:http://www.rdfcoder.org/2007/1.0#jpackage:org.apache.hadoop.conf: 0.43451944240645635
+[org.apache.hadoop.conf <subClassOf> JPackage] vs. [org.apache.hadoop.conf <subClassOf> JPackage] : 1.0&#13;
+[org.apache.hadoop.conf <contains_interface> Configurable] vs. [org.apache.hadoop.conf <contains_interface> Configurable] : 1.0&#13;
+[org.apache.hadoop.conf <contains_class> Configuration] vs. [org.apache.hadoop.conf <contains_class> Configuration] : 0.4430379746835443&#13;
+[org.apache.hadoop.conf <contains_class> Configured] vs. [org.apache.hadoop.conf <contains_class> Configured] : 0.8888888888888888&#13;
+sum (sum1) : 3.3319268635724333&#13;sum on org.apache.hadoop.conf (sum2) : 3.3319268635724333&#13;org.apache.hadoop.conf statement size (size1) : 4&#13;org.apache.hadoop.conf statement size (size2) : 7&#13;alpha : 1.0&#13;beta : 1.0&#13;sum1/(sum1+alpha*(size1-sum1)+beta*(size2-sum2)) = 0.43451944240645635
+-------------------------------------------
+Package:http://www.rdfcoder.org/2007/1.0#jpackage:org.apache.hadoop.util: 0.0655854473727467
+[org.apache.hadoop.util <subClassOf> JPackage] vs. [org.apache.hadoop.util <subClassOf> JPackage] : 1.0&#13;
+[org.apache.hadoop.util <contains_class> Daemon] vs. [org.apache.hadoop.util <contains_class> Daemon] : 0.8181818181818182&#13;
+[org.apache.hadoop.util <contains_class> ] vs. [org.apache.hadoop.util <contains_class> ] : 0.23076923076923078&#13;
+[org.apache.hadoop.util <contains_class> LogFormatter] vs. [org.apache.hadoop.util <contains_class> DiskErrorException] : 0.13636363636363635&#13;
+[org.apache.hadoop.util <contains_class> PrintJarMainClass] vs. [org.apache.hadoop.util <contains_class> PrintJarMainClass] : 1.0&#13;
+[org.apache.hadoop.util <contains_class> Progress] vs. [org.apache.hadoop.util <contains_class> Progress] : 1.0&#13;
+sum (sum1) : 4.185314685314685&#13;sum on org.apache.hadoop.util (sum2) : 4.185314685314685&#13;org.apache.hadoop.util statement size (size1) : 6&#13;org.apache.hadoop.util statement size (size2) : 62&#13;alpha : 1.0&#13;beta : 1.0&#13;sum1/(sum1+alpha*(size1-sum1)+beta*(size2-sum2)) = 0.0655854473727467
+-------------------------------------------
+Package:http://www.rdfcoder.org/2007/1.0#jpackage:org.apache: 0.4915254237288136
+[org.apache <contains_package> org.apache.hadoop] vs. [org.apache <contains_package> org.apache.hadoop] : 0.3181818181818182&#13;
+[org.apache <subClassOf> JPackage] vs. [org.apache <subClassOf> JPackage] : 1.0&#13;
+sum (sum1) : 1.3181818181818181&#13;sum on org.apache (sum2) : 1.3181818181818181&#13;org.apache statement size (size1) : 2&#13;org.apache statement size (size2) : 2&#13;alpha : 1.0&#13;beta : 1.0&#13;sum1/(sum1+alpha*(size1-sum1)+beta*(size2-sum2)) = 0.4915254237288136
+-------------------------------------------
+Package:http://www.rdfcoder.org/2007/1.0#jpackage:org.apache.hadoop: 0.11550927469610545
+[org.apache.hadoop <contains_package> org.apache.hadoop.conf] vs. [org.apache.hadoop <contains_package> org.apache.hadoop.conf] : 0.5714285714285714&#13;
+[org.apache.hadoop <subClassOf> JPackage] vs. [org.apache.hadoop <subClassOf> JPackage] : 1.0&#13;
+[org.apache.hadoop <contains_package> org.apache.hadoop.dfs] vs. [org.apache.hadoop <contains_package> org.apache.hadoop.jmx] : 0.02564102564102564&#13;
+[org.apache.hadoop <contains_package> org.apache.hadoop.fs] vs. [org.apache.hadoop <contains_package> org.apache.hadoop.fs] : 0.12962962962962962&#13;
+[org.apache.hadoop <contains_package> org.apache.hadoop.io] vs. [org.apache.hadoop <contains_package> org.apache.hadoop.io] : 0.4909090909090909&#13;
+[org.apache.hadoop <contains_package> org.apache.hadoop.ipc] vs. [org.apache.hadoop <contains_package> org.apache.hadoop.ipc] : 0.5&#13;
+[org.apache.hadoop <contains_package> org.apache.hadoop.mapred] vs. [org.apache.hadoop <contains_package> org.apache.hadoop.mapred] : 0.15723270440251572&#13;
+[org.apache.hadoop <contains_package> org.apache.hadoop.util] vs. [org.apache.hadoop <contains_package> org.apache.hadoop.jmx] : 0.14285714285714285&#13;
+sum (sum1) : 3.017698164867976&#13;sum on org.apache.hadoop (sum2) : 2.874841022010833&#13;org.apache.hadoop statement size (size1) : 8&#13;org.apache.hadoop statement size (size2) : 21&#13;alpha : 1.0&#13;beta : 1.0&#13;sum1/(sum1+alpha*(size1-sum1)+beta*(size2-sum2)) = 0.11550927469610545
+-------------------------------------------
+Package:http://www.rdfcoder.org/2007/1.0#jpackage:org.apache.hadoop.mapred.lib: 0.14545454545454545
+[org.apache.hadoop.mapred.lib <subClassOf> JPackage] vs. [org.apache.hadoop.mapred.lib <subClassOf> JPackage] : 1.0&#13;
+[org.apache.hadoop.mapred.lib <contains_class> HashPartitioner] vs. [org.apache.hadoop.mapred.lib <contains_class> HashPartitioner] : 1.0&#13;
+[org.apache.hadoop.mapred.lib <contains_class> IdentityMapper] vs. [org.apache.hadoop.mapred.lib <contains_class> IdentityMapper] : 1.0&#13;
+[org.apache.hadoop.mapred.lib <contains_class> IdentityReducer] vs. [org.apache.hadoop.mapred.lib <contains_class> IdentityReducer] : 1.0&#13;
+[org.apache.hadoop.mapred.lib <contains_class> InverseMapper] vs. [org.apache.hadoop.mapred.lib <contains_class> InverseMapper] : 1.0&#13;
+[org.apache.hadoop.mapred.lib <contains_class> LongSumReducer] vs. [org.apache.hadoop.mapred.lib <contains_class> LongSumReducer] : 1.0&#13;
+[org.apache.hadoop.mapred.lib <contains_class> RegexMapper] vs. [org.apache.hadoop.mapred.lib <contains_class> RegexMapper] : 1.0&#13;
+[org.apache.hadoop.mapred.lib <contains_class> TokenCountMapper] vs. [org.apache.hadoop.mapred.lib <contains_class> TokenCountMapper] : 1.0&#13;
+sum (sum1) : 8.0&#13;sum on org.apache.hadoop.mapred.lib (sum2) : 8.0&#13;org.apache.hadoop.mapred.lib statement size (size1) : 8&#13;org.apache.hadoop.mapred.lib statement size (size2) : 55&#13;alpha : 1.0&#13;beta : 1.0&#13;sum1/(sum1+alpha*(size1-sum1)+beta*(size2-sum2)) = 0.14545454545454545
+-------------------------------------------
+Package:http://www.rdfcoder.org/2007/1.0#jpackage:org.apache.hadoop.dfs: 1.0
+http://www.rdfcoder.org/2007/1.0#jpackage:org.apache.hadoop.dfs vs. http://www.rdfcoder.org/2007/1.0#jpackage:org.apache.hadoop.dfs : 1.0
+-------------------------------------------
+Package:http://www.rdfcoder.org/2007/1.0#jpackage:org.apache.hadoop.io: 0.37289719942539434
+[org.apache.hadoop.io <contains_class> Comparator] vs. [org.apache.hadoop.io <contains_class> Comparator] : 1.0&#13;
+[org.apache.hadoop.io <contains_class> Writer] vs. [org.apache.hadoop.io <contains_class> Writer] : 0.41509433962264153&#13;
+[org.apache.hadoop.io <contains_class> MapFile] vs. [org.apache.hadoop.io <contains_class> MapFile] : 0.6875&#13;
+[org.apache.hadoop.io <contains_class> FloatWritable] vs. [org.apache.hadoop.io <contains_class> FloatWritable] : 0.8421052631578947&#13;
+[org.apache.hadoop.io <contains_class> SetFile] vs. [org.apache.hadoop.io <contains_class> SetFile] : 0.7142857142857143&#13;
+[org.apache.hadoop.io <contains_class> DecreasingComparator] vs. [org.apache.hadoop.io <contains_class> DecreasingComparator] : 1.0&#13;
+[org.apache.hadoop.io <contains_class> MergeFiles] vs. [org.apache.hadoop.io <contains_class> ] : 0.3&#13;
+[org.apache.hadoop.io <contains_class> IntWritable] vs. [org.apache.hadoop.io <contains_class> IntWritable] : 0.8421052631578947&#13;
+[org.apache.hadoop.io <contains_class> Comparator] vs. [org.apache.hadoop.io <contains_class> Comparator] : 1.0&#13;
+[org.apache.hadoop.io <contains_class> Comparator] vs. [org.apache.hadoop.io <contains_class> Comparator] : 1.0&#13;
+[org.apache.hadoop.io <contains_class> SortPass] vs. [org.apache.hadoop.io <contains_class> SortPass] : 0.47368421052631576&#13;
+[org.apache.hadoop.io <contains_class> Comparator] vs. [org.apache.hadoop.io <contains_class> Comparator] : 1.0&#13;
+[org.apache.hadoop.io <contains_class> Writer] vs. [org.apache.hadoop.io <contains_class> Writer] : 0.875&#13;
+[org.apache.hadoop.io <contains_class> Reader] vs. [org.apache.hadoop.io <contains_class> Reader] : 0.38144329896907214&#13;
+[org.apache.hadoop.io <contains_class> WritableFactories] vs. [org.apache.hadoop.io <contains_class> WritableFactories] : 1.0&#13;
+[org.apache.hadoop.io <contains_class> CompressedWritable] vs. [org.apache.hadoop.io <contains_class> CompressedWritable] : 1.0&#13;
+[org.apache.hadoop.io <contains_class> WritableName] vs. [org.apache.hadoop.io <contains_class> WritableName] : 0.7058823529411765&#13;
+[org.apache.hadoop.io <contains_class> Sorter] vs. [org.apache.hadoop.io <contains_class> Sorter] : 0.64&#13;
+[org.apache.hadoop.io <contains_class> CopyInCopyOutBuffer] vs. [org.apache.hadoop.io <contains_class> ] : 0.3&#13;
+[org.apache.hadoop.io <contains_class> MD5Hash] vs. [org.apache.hadoop.io <contains_class> MD5Hash] : 0.7741935483870968&#13;
+[org.apache.hadoop.io <contains_class> BooleanWritable] vs. [org.apache.hadoop.io <contains_class> BooleanWritable] : 0.7894736842105263&#13;
+[org.apache.hadoop.io <contains_interface> Closeable] vs. [org.apache.hadoop.io <contains_interface> Closeable] : 0.5&#13;
+[org.apache.hadoop.io <contains_class> Reader] vs. [org.apache.hadoop.io <contains_class> Reader] : 1.0&#13;
+[org.apache.hadoop.io <contains_class> Comparator] vs. [org.apache.hadoop.io <contains_class> Comparator] : 1.0&#13;
+[org.apache.hadoop.io <contains_interface> WritableComparable] vs. [org.apache.hadoop.io <contains_interface> WritableComparable] : 1.0&#13;
+[org.apache.hadoop.io <contains_class> WritableComparator] vs. [org.apache.hadoop.io <contains_class> WritableComparator] : 0.7857142857142857&#13;
+[org.apache.hadoop.io <contains_class> DataInputBuffer] vs. [org.apache.hadoop.io <contains_class> DataInputBuffer] : 0.8571428571428571&#13;
+[org.apache.hadoop.io <contains_class> Reader] vs. [org.apache.hadoop.io <contains_class> Reader] : 0.9&#13;
+[org.apache.hadoop.io <contains_class> ] vs. [org.apache.hadoop.io <contains_class> ] : 0.42857142857142855&#13;
+[org.apache.hadoop.io <contains_class> TwoDArrayWritable] vs. [org.apache.hadoop.io <contains_class> TwoDArrayWritable] : 0.9285714285714286&#13;
+[org.apache.hadoop.io <contains_class> NullWritable] vs. [org.apache.hadoop.io <contains_class> NullWritable] : 0.7142857142857143&#13;
+[org.apache.hadoop.io <contains_class> Buffer] vs. [org.apache.hadoop.io <contains_class> Buffer] : 0.8461538461538461&#13;
+[org.apache.hadoop.io <contains_class> ] vs. [org.apache.hadoop.io <contains_class> ] : 0.6&#13;
+[org.apache.hadoop.io <contains_class> Comparator] vs. [org.apache.hadoop.io <contains_class> Comparator] : 1.0&#13;
+[org.apache.hadoop.io <contains_class> ObjectWritable] vs. [org.apache.hadoop.io <contains_class> ObjectWritable] : 0.7857142857142857&#13;
+[org.apache.hadoop.io <contains_class> UTF8] vs. [org.apache.hadoop.io <contains_class> UTF8] : 0.8235294117647058&#13;
+[org.apache.hadoop.io <contains_class> MergePass] vs. [org.apache.hadoop.io <contains_class> ] : 0.21428571428571427&#13;
+[org.apache.hadoop.io <contains_interface> Writable] vs. [org.apache.hadoop.io <contains_interface> Writable] : 1.0&#13;
+[org.apache.hadoop.io <contains_class> SequenceFile] vs. [org.apache.hadoop.io <contains_class> SequenceFile] : 0.5909090909090909&#13;
+[org.apache.hadoop.io <contains_class> VersionedWritable] vs. [org.apache.hadoop.io <contains_class> VersionedWritable] : 1.0&#13;
+[org.apache.hadoop.io <subClassOf> JPackage] vs. [org.apache.hadoop.io <subClassOf> JPackage] : 1.0&#13;
+[org.apache.hadoop.io <contains_class> VersionMismatchException] vs. [org.apache.hadoop.io <contains_class> VersionMismatchException] : 1.0&#13;
+[org.apache.hadoop.io <contains_class> BytesWritable] vs. [org.apache.hadoop.io <contains_class> BytesWritable] : 0.6206896551724138&#13;
+[org.apache.hadoop.io <contains_class> Reader] vs. [org.apache.hadoop.io <contains_class> Reader] : 0.675&#13;
+[org.apache.hadoop.io <contains_class> ArrayWritable] vs. [org.apache.hadoop.io <contains_class> ArrayWritable] : 0.7727272727272727&#13;
+[org.apache.hadoop.io <contains_class> Writer] vs. [org.apache.hadoop.io <contains_class> Writer] : 0.7777777777777778&#13;
+[org.apache.hadoop.io <contains_class> Comparator] vs. [org.apache.hadoop.io <contains_class> Comparator] : 1.0&#13;
+[org.apache.hadoop.io <contains_class> LongWritable] vs. [org.apache.hadoop.io <contains_class> LongWritable] : 0.8421052631578947&#13;
+[org.apache.hadoop.io <contains_class> WritableUtils] vs. [org.apache.hadoop.io <contains_class> WritableUtils] : 0.5625&#13;
+[org.apache.hadoop.io <contains_class> MergeQueue] vs. [org.apache.hadoop.io <contains_class> MergeQueue] : 0.30303030303030304&#13;
+[org.apache.hadoop.io <contains_class> ArrayFile] vs. [org.apache.hadoop.io <contains_class> ArrayFile] : 0.7142857142857143&#13;
+[org.apache.hadoop.io <contains_class> NullInstance] vs. [org.apache.hadoop.io <contains_class> NullInstance] : 0.9090909090909091&#13;
+[org.apache.hadoop.io <contains_class> MergeStream] vs. [org.apache.hadoop.io <contains_class> ] : 0.21428571428571427&#13;
+[org.apache.hadoop.io <contains_interface> WritableFactory] vs. [org.apache.hadoop.io <contains_interface> WritableFactory] : 1.0&#13;
+[org.apache.hadoop.io <contains_class> ] vs. [org.apache.hadoop.io <contains_class> ] : 0.6666666666666666&#13;
+[org.apache.hadoop.io <contains_class> DataOutputBuffer] vs. [org.apache.hadoop.io <contains_class> DataOutputBuffer] : 0.8235294117647058&#13;
+[org.apache.hadoop.io <contains_class> Writer] vs. [org.apache.hadoop.io <contains_class> Writer] : 0.7096774193548387&#13;
+[org.apache.hadoop.io <contains_class> Buffer] vs. [org.apache.hadoop.io <contains_class> Buffer] : 0.9&#13;
+sum (sum1) : 44.2070118456859&#13;sum on org.apache.hadoop.io (sum2) : 42.44986898854303&#13;org.apache.hadoop.io statement size (size1) : 58&#13;org.apache.hadoop.io statement size (size2) : 103&#13;alpha : 1.0&#13;beta : 1.0&#13;sum1/(sum1+alpha*(size1-sum1)+beta*(size2-sum2)) = 0.37289719942539434
+-------------------------------------------
+Package:http://www.rdfcoder.org/2007/1.0#jpackage:org.apache.hadoop.mapred: 0.09704102460336271
+[org.apache.hadoop.mapred <contains_class> ] vs. [org.apache.hadoop.mapred <contains_class> ExpireTrackers] : 0.3333333333333333&#13;
+[org.apache.hadoop.mapred <contains_class> SequenceFileOutputFormat] vs. [org.apache.hadoop.mapred <contains_class> SequenceFileOutputFormat] : 0.7777777777777778&#13;
+[org.apache.hadoop.mapred <contains_class> TaskStatus] vs. [org.apache.hadoop.mapred <contains_class> TaskStatus] : 0.30985915492957744&#13;
+[org.apache.hadoop.mapred <contains_class> JobInitThread] vs. [org.apache.hadoop.mapred <contains_class> ExpireTrackers] : 0.2857142857142857&#13;
+[org.apache.hadoop.mapred <contains_class> Job] vs. [org.apache.hadoop.mapred <contains_class> Job] : 0.41304347826086957&#13;
+[org.apache.hadoop.mapred <contains_interface> MRConstants] vs. [org.apache.hadoop.mapred <contains_interface> MRConstants] : 0.2857142857142857&#13;
+[org.apache.hadoop.mapred <contains_class> ] vs. [org.apache.hadoop.mapred <contains_class> TextOutputFormat] : 0.36363636363636365&#13;
+[org.apache.hadoop.mapred <contains_class> HTTPStarter] vs. [org.apache.hadoop.mapred <contains_class> ExpireTrackers] : 0.3333333333333333&#13;
+[org.apache.hadoop.mapred <contains_class> TaskInProgress] vs. [org.apache.hadoop.mapred <contains_class> TaskInProgress] : 0.36923076923076925&#13;
+[org.apache.hadoop.mapred <contains_class> ] vs. [org.apache.hadoop.mapred <contains_class> ] : 1.0&#13;
+[org.apache.hadoop.mapred <contains_class> jobdetails_jsp] vs. [org.apache.hadoop.mapred <contains_class> jobdetails_jsp] : 0.5333333333333333&#13;
+[org.apache.hadoop.mapred <contains_class> TaskTrackerStatus] vs. [org.apache.hadoop.mapred <contains_class> TaskTrackerStatus] : 0.3829787234042553&#13;
+[org.apache.hadoop.mapred <contains_class> RetireJobs] vs. [org.apache.hadoop.mapred <contains_class> RetireJobs] : 0.47058823529411764&#13;
+[org.apache.hadoop.mapred <contains_class> ] vs. [org.apache.hadoop.mapred <contains_class> ] : 0.875&#13;
+[org.apache.hadoop.mapred <contains_class> ] vs. [org.apache.hadoop.mapred <contains_class> TextInputFormat] : 0.25&#13;
+[org.apache.hadoop.mapred <contains_class> NetworkedJob] vs. [org.apache.hadoop.mapred <contains_class> NetworkedJob] : 0.5757575757575758&#13;
+[org.apache.hadoop.mapred <contains_class> Task] vs. [org.apache.hadoop.mapred <contains_class> Task] : 0.15873015873015872&#13;
+[org.apache.hadoop.mapred <contains_class> ValuesIterator] vs. [org.apache.hadoop.mapred <contains_class> ] : 0.13043478260869565&#13;
+[org.apache.hadoop.mapred <contains_class> MapFileOutputFormat] vs. [org.apache.hadoop.mapred <contains_class> MapFileOutputFormat] : 1.0&#13;
+[org.apache.hadoop.mapred <contains_class> TaskReport] vs. [org.apache.hadoop.mapred <contains_class> TaskReport] : 0.43243243243243246&#13;
+[org.apache.hadoop.mapred <contains_class> ] vs. [org.apache.hadoop.mapred <contains_class> ] : 0.8&#13;
+[org.apache.hadoop.mapred <contains_class> MapOutputServer] vs. [org.apache.hadoop.mapred <contains_class> ] : 0.3333333333333333&#13;
+[org.apache.hadoop.mapred <contains_interface> MapOutputProtocol] vs. [org.apache.hadoop.mapred <contains_interface> Partitioner] : 0.25&#13;
+[org.apache.hadoop.mapred <contains_class> JobConf] vs. [org.apache.hadoop.mapred <contains_class> JobConf] : 0.24598930481283424&#13;
+[org.apache.hadoop.mapred <contains_class> MapOutputFile] vs. [org.apache.hadoop.mapred <contains_class> MapOutputFile] : 0.29411764705882354&#13;
+[org.apache.hadoop.mapred <contains_class> MapReduceBase] vs. [org.apache.hadoop.mapred <contains_class> MapReduceBase] : 1.0&#13;
+[org.apache.hadoop.mapred <contains_class> ] vs. [org.apache.hadoop.mapred <contains_class> ] : 1.0&#13;
+[org.apache.hadoop.mapred <contains_class> ] vs. [org.apache.hadoop.mapred <contains_class> ] : 0.42857142857142855&#13;
+[org.apache.hadoop.mapred <contains_class> SequenceFileRecordReader] vs. [org.apache.hadoop.mapred <contains_class> SequenceFileRecordReader] : 0.65&#13;
+[org.apache.hadoop.mapred <contains_interface> InterTrackerProtocol] vs. [org.apache.hadoop.mapred <contains_interface> InterTrackerProtocol] : 0.26666666666666666&#13;
+[org.apache.hadoop.mapred <contains_class> ] vs. [org.apache.hadoop.mapred <contains_class> ] : 0.5454545454545454&#13;
+[org.apache.hadoop.mapred <contains_class> TextOutputFormat] vs. [org.apache.hadoop.mapred <contains_class> TextOutputFormat] : 1.0&#13;
+[org.apache.hadoop.mapred <contains_class> ] vs. [org.apache.hadoop.mapred <contains_class> ] : 0.42857142857142855&#13;
+[org.apache.hadoop.mapred <contains_class> MapTaskRunner] vs. [org.apache.hadoop.mapred <contains_class> MapTaskRunner] : 0.6363636363636364&#13;
+[org.apache.hadoop.mapred <contains_class> JobClient] vs. [org.apache.hadoop.mapred <contains_class> JobClient] : 0.2111111111111111&#13;
+[org.apache.hadoop.mapred <contains_class> TextInputFormat] vs. [org.apache.hadoop.mapred <contains_class> TextInputFormat] : 0.5454545454545454&#13;
+[org.apache.hadoop.mapred <contains_class> ] vs. [org.apache.hadoop.mapred <contains_class> ] : 0.42857142857142855&#13;
+[org.apache.hadoop.mapred <contains_interface> RunningJob] vs. [org.apache.hadoop.mapred <contains_interface> RunningJob] : 0.5&#13;
+[org.apache.hadoop.mapred <contains_class> MapRunner] vs. [org.apache.hadoop.mapred <contains_class> MapRunner] : 0.6153846153846154&#13;
+[org.apache.hadoop.mapred <contains_interface> TaskUmbilicalProtocol] vs. [org.apache.hadoop.mapred <contains_interface> TaskUmbilicalProtocol] : 0.35294117647058826&#13;
+[org.apache.hadoop.mapred <contains_interface> InputFormat] vs. [org.apache.hadoop.mapred <contains_interface> InputFormat] : 1.0&#13;
+[org.apache.hadoop.mapred <contains_class> CombiningCollector] vs. [org.apache.hadoop.mapred <contains_class> ] : 0.1875&#13;
+[org.apache.hadoop.mapred <contains_interface> OutputCollector] vs. [org.apache.hadoop.mapred <contains_interface> OutputCollector] : 1.0&#13;
+[org.apache.hadoop.mapred <contains_class> ReduceTask] vs. [org.apache.hadoop.mapred <contains_class> ReduceTask] : 0.29310344827586204&#13;
+[org.apache.hadoop.mapred <contains_class> FileSplit] vs. [org.apache.hadoop.mapred <contains_class> FileSplit] : 0.7&#13;
+[org.apache.hadoop.mapred <contains_interface> JobConfigurable] vs. [org.apache.hadoop.mapred <contains_interface> JobConfigurable] : 1.0&#13;
+[org.apache.hadoop.mapred <contains_class> TaskRunner] vs. [org.apache.hadoop.mapred <contains_class> TaskRunner] : 0.25&#13;
+[org.apache.hadoop.mapred <contains_interface> Mapper] vs. [org.apache.hadoop.mapred <contains_interface> Mapper] : 1.0&#13;
+[org.apache.hadoop.mapred <contains_class> ] vs. [org.apache.hadoop.mapred <contains_class> ] : 1.0&#13;
+[org.apache.hadoop.mapred <contains_class> ] vs. [org.apache.hadoop.mapred <contains_class> ] : 1.0&#13;
+[org.apache.hadoop.mapred <contains_class> MapOutputLocation] vs. [org.apache.hadoop.mapred <contains_class> ] : 0.15789473684210525&#13;
+[org.apache.hadoop.mapred <contains_class> LocalJobRunner] vs. [org.apache.hadoop.mapred <contains_class> LocalJobRunner] : 0.41935483870967744&#13;
+[org.apache.hadoop.mapred <contains_interface> JobSubmissionProtocol] vs. [org.apache.hadoop.mapred <contains_interface> JobSubmissionProtocol] : 0.2903225806451613&#13;
+[org.apache.hadoop.mapred <contains_interface> Partitioner] vs. [org.apache.hadoop.mapred <contains_interface> Partitioner] : 1.0&#13;
+[org.apache.hadoop.mapred <contains_class> ReduceTaskRunner] vs. [org.apache.hadoop.mapred <contains_class> ReduceTaskRunner] : 0.4666666666666667&#13;
+[org.apache.hadoop.mapred <contains_class> JobProfile] vs. [org.apache.hadoop.mapred <contains_class> JobProfile] : 0.6428571428571429&#13;
+[org.apache.hadoop.mapred <contains_class> TaskTracker] vs. [org.apache.hadoop.mapred <contains_class> TaskTracker] : 0.1284722222222222&#13;
+[org.apache.hadoop.mapred <contains_class> ] vs. [org.apache.hadoop.mapred <contains_class> ] : 0.25&#13;
+[org.apache.hadoop.mapred <contains_class> RedirectHandler] vs. [org.apache.hadoop.mapred <contains_class> TaskAttempt] : 0.375&#13;
+[org.apache.hadoop.mapred <contains_class> ] vs. [org.apache.hadoop.mapred <contains_class> ] : 0.42857142857142855&#13;
+[org.apache.hadoop.mapred <contains_class> ExpireTrackers] vs. [org.apache.hadoop.mapred <contains_class> ExpireTrackers] : 0.8&#13;
+[org.apache.hadoop.mapred <contains_interface> Reducer] vs. [org.apache.hadoop.mapred <contains_interface> Reducer] : 1.0&#13;
+[org.apache.hadoop.mapred <contains_class> JobTracker] vs. [org.apache.hadoop.mapred <contains_class> JobTracker] : 0.1749271137026239&#13;
+[org.apache.hadoop.mapred <contains_interface> MapRunnable] vs. [org.apache.hadoop.mapred <contains_interface> MapRunnable] : 1.0&#13;
+[org.apache.hadoop.mapred <contains_class> ClusterStatus] vs. [org.apache.hadoop.mapred <contains_class> ClusterStatus] : 0.2692307692307692&#13;
+[org.apache.hadoop.mapred <contains_class> OutputFormatBase] vs. [org.apache.hadoop.mapred <contains_class> TaskAttempt] : 0.3333333333333333&#13;
+[org.apache.hadoop.mapred <contains_class> ] vs. [org.apache.hadoop.mapred <contains_class> ] : 0.23076923076923078&#13;
+[org.apache.hadoop.mapred <contains_class> JobInProgress] vs. [org.apache.hadoop.mapred <contains_class> JobInProgress] : 0.14957264957264957&#13;
+[org.apache.hadoop.mapred <contains_class> ] vs. [org.apache.hadoop.mapred <contains_class> ] : 1.0&#13;
+[org.apache.hadoop.mapred <contains_class> JobTrackerInfoServer] vs. [org.apache.hadoop.mapred <contains_class> ] : 0.21428571428571427&#13;
+[org.apache.hadoop.mapred <contains_class> TaskInProgress] vs. [org.apache.hadoop.mapred <contains_class> TaskInProgress] : 0.302158273381295&#13;
+[org.apache.hadoop.mapred <contains_class> ] vs. [org.apache.hadoop.mapred <contains_class> ExpireTrackers] : 0.3076923076923077&#13;
+[org.apache.hadoop.mapred <contains_class> ] vs. [org.apache.hadoop.mapred <contains_class> ] : 1.0&#13;
+[org.apache.hadoop.mapred <contains_class> SequenceFileInputFormat] vs. [org.apache.hadoop.mapred <contains_class> SequenceFileInputFormat] : 0.75&#13;
+[org.apache.hadoop.mapred <contains_interface> ProgressReporter] vs. [org.apache.hadoop.mapred <contains_interface> Partitioner] : 0.25&#13;
+[org.apache.hadoop.mapred <contains_interface> RecordWriter] vs. [org.apache.hadoop.mapred <contains_interface> RecordWriter] : 1.0&#13;
+[org.apache.hadoop.mapred <contains_class> jobtracker_jsp] vs. [org.apache.hadoop.mapred <contains_class> jobtracker_jsp] : 0.6111111111111112&#13;
+[org.apache.hadoop.mapred <contains_package> org.apache.hadoop.mapred.lib] vs. [org.apache.hadoop.mapred <contains_package> org.apache.hadoop.mapred.lib] : 0.14545454545454545&#13;
+[org.apache.hadoop.mapred <contains_class> Child] vs. [org.apache.hadoop.mapred <contains_class> TaskAttempt] : 0.3333333333333333&#13;
+[org.apache.hadoop.mapred <contains_class> ] vs. [org.apache.hadoop.mapred <contains_class> ] : 0.3&#13;
+[org.apache.hadoop.mapred <contains_class> ] vs. [org.apache.hadoop.mapred <contains_class> ] : 1.0&#13;
+[org.apache.hadoop.mapred <subClassOf> JPackage] vs. [org.apache.hadoop.mapred <subClassOf> JPackage] : 1.0&#13;
+[org.apache.hadoop.mapred <contains_interface> RecordReader] vs. [org.apache.hadoop.mapred <contains_interface> RecordReader] : 0.625&#13;
+[org.apache.hadoop.mapred <contains_class> JobStatus] vs. [org.apache.hadoop.mapred <contains_class> JobStatus] : 0.3492063492063492&#13;
+[org.apache.hadoop.mapred <contains_class> InputFormatBase] vs. [org.apache.hadoop.mapred <contains_class> TaskAttempt] : 0.2&#13;
+[org.apache.hadoop.mapred <contains_interface> OutputFormat] vs. [org.apache.hadoop.mapred <contains_interface> OutputFormat] : 1.0&#13;
+[org.apache.hadoop.mapred <contains_class> ] vs. [org.apache.hadoop.mapred <contains_class> ReduceTaskRunner] : 0.38461538461538464&#13;
+[org.apache.hadoop.mapred <contains_interface> Reporter] vs. [org.apache.hadoop.mapred <contains_interface> Partitioner] : 0.25&#13;
+[org.apache.hadoop.mapred <contains_class> MapTask] vs. [org.apache.hadoop.mapred <contains_class> MapTask] : 0.41935483870967744&#13;
+[org.apache.hadoop.mapred <contains_class> ] vs. [org.apache.hadoop.mapred <contains_class> ] : 1.0&#13;
+sum (sum1) : 47.803216910504744&#13;sum on org.apache.hadoop.mapred (sum2) : 38.39167165751212&#13;org.apache.hadoop.mapred statement size (size1) : 90&#13;org.apache.hadoop.mapred statement size (size2) : 441&#13;alpha : 1.0&#13;beta : 1.0&#13;sum1/(sum1+alpha*(size1-sum1)+beta*(size2-sum2)) = 0.09704102460336271
+-------------------------------------------
+Package:http://www.rdfcoder.org/2007/1.0#jpackage:org.apache.hadoop.fs: 0.09374447820715454
+[org.apache.hadoop.fs <contains_class> Summer] vs. [org.apache.hadoop.fs <contains_class> PositionCache] : 0.23809523809523808&#13;
+[org.apache.hadoop.fs <contains_class> Buffer] vs. [org.apache.hadoop.fs <contains_class> PositionCache] : 0.3125&#13;
+[org.apache.hadoop.fs <contains_class> PositionCache] vs. [org.apache.hadoop.fs <contains_class> PositionCache] : 0.8333333333333334&#13;
+[org.apache.hadoop.fs <contains_interface> Seekable] vs. [org.apache.hadoop.fs <contains_interface> Seekable] : 0.6&#13;
+[org.apache.hadoop.fs <contains_class> ChecksumException] vs. [org.apache.hadoop.fs <contains_class> ChecksumException] : 0.75&#13;
+[org.apache.hadoop.fs <contains_class> FileSystem] vs. [org.apache.hadoop.fs <contains_class> FileSystem] : 0.29&#13;
+[org.apache.hadoop.fs <contains_class> ] vs. [org.apache.hadoop.fs <contains_class> ] : 0.6&#13;
+[org.apache.hadoop.fs <contains_class> LocalFileSystem] vs. [org.apache.hadoop.fs <contains_class> LocalFileSystem] : 0.1956521739130435&#13;
+[org.apache.hadoop.fs <contains_class> LocalFSFileInputStream] vs. [org.apache.hadoop.fs <contains_class> ] : 0.2&#13;
+[org.apache.hadoop.fs <contains_class> LocalFSFileOutputStream] vs. [org.apache.hadoop.fs <contains_class> ] : 0.25&#13;
+[org.apache.hadoop.fs <contains_class> FSDataOutputStream] vs. [org.apache.hadoop.fs <contains_class> FSDataOutputStream] : 0.45&#13;
+[org.apache.hadoop.fs <contains_class> Checker] vs. [org.apache.hadoop.fs <contains_class> ] : 0.16666666666666666&#13;
+[org.apache.hadoop.fs <contains_class> FileUtil] vs. [org.apache.hadoop.fs <contains_class> FSError] : 0.2727272727272727&#13;
+[org.apache.hadoop.fs <contains_class> FSDataInputStream] vs. [org.apache.hadoop.fs <contains_class> FSDataInputStream] : 0.4166666666666667&#13;
+[org.apache.hadoop.fs <contains_class> FSOutputStream] vs. [org.apache.hadoop.fs <contains_class> FSError] : 0.2727272727272727&#13;
+[org.apache.hadoop.fs <contains_class> ] vs. [org.apache.hadoop.fs <contains_class> ] : 0.75&#13;
+[org.apache.hadoop.fs <contains_class> FSError] vs. [org.apache.hadoop.fs <contains_class> FSError] : 1.0&#13;
+[org.apache.hadoop.fs <contains_class> FSInputStream] vs. [org.apache.hadoop.fs <contains_class> FSInputStream] : 0.7&#13;
+[org.apache.hadoop.fs <subClassOf> JPackage] vs. [org.apache.hadoop.fs <subClassOf> JPackage] : 1.0&#13;
+[org.apache.hadoop.fs <contains_class> DF] vs. [org.apache.hadoop.fs <contains_class> DF] : 0.7&#13;
+[org.apache.hadoop.fs <contains_class> PositionCache] vs. [org.apache.hadoop.fs <contains_class> TrackingFileInputStream] : 0.2857142857142857&#13;
+[org.apache.hadoop.fs <contains_class> Buffer] vs. [org.apache.hadoop.fs <contains_class> TrackingFileInputStream] : 0.2857142857142857&#13;
+sum (sum1) : 10.569797195558067&#13;sum on org.apache.hadoop.fs (sum2) : 7.248855637116507&#13;org.apache.hadoop.fs statement size (size1) : 22&#13;org.apache.hadoop.fs statement size (size2) : 98&#13;alpha : 1.0&#13;beta : 1.0&#13;sum1/(sum1+alpha*(size1-sum1)+beta*(size2-sum2)) = 0.09374447820715454
+-------------------------------------------
+Package:http://www.rdfcoder.org/2007/1.0#jpackage:org.apache.hadoop.ipc: 0.263204142625369
+[org.apache.hadoop.ipc <contains_class> Handler] vs. [org.apache.hadoop.ipc <contains_class> Handler] : 0.8888888888888888&#13;
+[org.apache.hadoop.ipc <contains_class> Listener] vs. [org.apache.hadoop.ipc <contains_class> Handler] : 0.3076923076923077&#13;
+[org.apache.hadoop.ipc <contains_class> Call] vs. [org.apache.hadoop.ipc <contains_class> Call] : 0.55&#13;
+[org.apache.hadoop.ipc <contains_class> Invoker] vs. [org.apache.hadoop.ipc <contains_class> Invoker] : 0.5384615384615384&#13;
+[org.apache.hadoop.ipc <contains_class> Connection] vs. [org.apache.hadoop.ipc <contains_class> ] : 0.4666666666666667&#13;
+[org.apache.hadoop.ipc <contains_class> Connection] vs. [org.apache.hadoop.ipc <contains_class> ] : 0.3181818181818182&#13;
+[org.apache.hadoop.ipc <contains_class> Invocation] vs. [org.apache.hadoop.ipc <contains_class> Invocation] : 0.9473684210526315&#13;
+[org.apache.hadoop.ipc <contains_class> ParallelCall] vs. [org.apache.hadoop.ipc <contains_class> ParallelCall] : 1.0&#13;
+[org.apache.hadoop.ipc <contains_class> ] vs. [org.apache.hadoop.ipc <contains_class> ] : 0.42857142857142855&#13;
+[org.apache.hadoop.ipc <contains_class> Server] vs. [org.apache.hadoop.ipc <contains_class> Server] : 0.75&#13;
+[org.apache.hadoop.ipc <contains_class> Client] vs. [org.apache.hadoop.ipc <contains_class> Client] : 0.4883720930232558&#13;
+[org.apache.hadoop.ipc <contains_class> Server] vs. [org.apache.hadoop.ipc <contains_class> Server] : 0.24770642201834864&#13;
+[org.apache.hadoop.ipc <contains_class> Call] vs. [org.apache.hadoop.ipc <contains_class> Call] : 0.7058823529411765&#13;
+[org.apache.hadoop.ipc <contains_class> ParallelResults] vs. [org.apache.hadoop.ipc <contains_class> ParallelResults] : 0.8&#13;
+[org.apache.hadoop.ipc <contains_class> RPC] vs. [org.apache.hadoop.ipc <contains_class> RPC] : 0.56&#13;
+[org.apache.hadoop.ipc <contains_class> ] vs. [org.apache.hadoop.ipc <contains_class> ] : 0.46153846153846156&#13;
+[org.apache.hadoop.ipc <subClassOf> JPackage] vs. [org.apache.hadoop.ipc <subClassOf> JPackage] : 1.0&#13;
+sum (sum1) : 10.459330399036524&#13;sum on org.apache.hadoop.ipc (sum2) : 9.261528201234324&#13;org.apache.hadoop.ipc statement size (size1) : 17&#13;org.apache.hadoop.ipc statement size (size2) : 32&#13;alpha : 1.0&#13;beta : 1.0&#13;sum1/(sum1+alpha*(size1-sum1)+beta*(size2-sum2)) = 0.263204142625369
+-------------------------------------------
+Document similarity:0.3079480978519948
